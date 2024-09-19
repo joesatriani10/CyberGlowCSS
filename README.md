@@ -1,6 +1,12 @@
 # CyberGlowCSS
 A CSS library for adding vibrant, cyberpunk-inspired glowing text effects to your web projects.
 
+<img width="560" alt="image" src="https://github.com/user-attachments/assets/715131c7-f29d-4e02-b391-912b7a36dac4">
+
+<img width="973" alt="image" src="https://github.com/user-attachments/assets/652dd58d-56e2-45d4-80e1-3e4f7d9ce8eb">
+
+
+
 Usage
 CyberGlowCSS provides a variety of CSS classes to create glowing text effects in different colors and intensities. You can apply these classes directly to your text elements.
 
