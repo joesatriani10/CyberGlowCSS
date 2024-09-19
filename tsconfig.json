@@ -1,0 +1,9 @@
+{
+  "name": "cyber-glow-css",
+  "version": "1.0.0",
+  "description": "A CSS library for creating glowing text effects.",
+  "main": "cyber-glow.css",
+  "keywords": ["css", "glow", "text", "effects"],
+  "author": "Angel Montes de Oca",
+  "license": "MIT"
+}

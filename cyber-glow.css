@@ -1,0 +1,863 @@
+:root {
+    --glow-blue-light: #0bffff;
+    --glow-blue: #08f7fe;
+    --glow-blue-dark: #05c3d7;
+
+    --glow-pink-light: #ff92ed;
+    --glow-pink: #ff7ce5;
+    --glow-pink-dark: #f062c9;
+
+    --glow-green-light: #b2e773;
+    --glow-green: #a8e063;
+    --glow-green-dark: #80c344;
+
+    --glow-yellow-light: #fded5c;
+    --glow-yellow: #fde64b;
+    --glow-yellow-dark: #e0c73a;
+
+    --glow-orange-light: #ff9933;
+    --glow-orange: #ff7f00;
+    --glow-orange-dark: #cc6600;
+
+    --glow-purple-light: #BF3EFF;
+    --glow-purple: #9400D3;
+    --glow-purple-dark: #8A2BE2;
+
+    --glow-cyan-light: #40E0D0;
+    --glow-cyan: #00FFFF;
+    --glow-cyan-dark: #00CED1;
+
+    --glow-red-light: #FF4500;
+    --glow-red: #FF0000;
+    --glow-red-dark: #DC143C;
+
+    --glow-lime-light: #90EE90;
+    --glow-lime: #00FF00;
+    --glow-lime-dark: #32CD32;
+
+    --glow-magenta-light: #EE82EE;
+    --glow-magenta: #FF00FF;
+    --glow-magenta-dark: #FF1493;
+}
+
+.glow-blue-light {
+    background: linear-gradient(to right, #43c6ac, var(--glow-blue-light));
+    text-shadow: 0 0 5px var(--glow-blue-light), 0 0 10px var(--glow-blue-light),
+    0 0 15px var(--glow-blue-light), 0 0 20px #43c6ac, 0 0 30px #43c6ac,
+    0 0 40px #43c6ac;
+    background-clip: text;
+    color: white;
+}
+
+.glow-blue {
+    background: linear-gradient(to right, #43c6ac, var(--glow-blue));
+    text-shadow: 0 0 5px var(--glow-blue), 0 0 10px var(--glow-blue),
+    0 0 15px var(--glow-blue), 0 0 20px #43c6ac, 0 0 30px #43c6ac,
+    0 0 40px #43c6ac;
+    background-clip: text;
+    color: white;
+}
+
+.glow-blue-dark {
+    background: linear-gradient(to right, #43c6ac, var(--glow-blue-dark));
+    text-shadow: 0 0 5px var(--glow-blue-dark), 0 0 10px var(--glow-blue-dark),
+    0 0 15px var(--glow-blue-dark), 0 0 20px #43c6ac, 0 0 30px #43c6ac,
+    0 0 40px #43c6ac;
+    background-clip: text;
+    color: white;
+}
+
+.glow-pink-light {
+    background: linear-gradient(to right, #ff7ce5, var(--glow-pink-light));
+    text-shadow: 0 0 5px var(--glow-pink-light), 0 0 10px var(--glow-pink-light),
+    0 0 15px var(--glow-pink-light), 0 0 20px #ff7ce5, 0 0 30px #ff7ce5,
+    0 0 40px #ff7ce5;
+    background-clip: text;
+    color: white;
+}
+
+.glow-pink {
+    background: linear-gradient(to right, #ff7ce5, var(--glow-pink));
+    text-shadow: 0 0 5px var(--glow-pink), 0 0 10px var(--glow-pink),
+    0 0 15px var(--glow-pink), 0 0 20px #ff7ce5, 0 0 30px #ff7ce5,
+    0 0 40px #ff7ce5;
+    background-clip: text;
+    color: white;
+}
+
+.glow-pink-dark {
+    background: linear-gradient(to right, #ff7ce5, var(--glow-pink-dark));
+    text-shadow: 0 0 5px var(--glow-pink-dark), 0 0 10px var(--glow-pink-dark),
+    0 0 15px var(--glow-pink-dark), 0 0 20px #ff7ce5, 0 0 30px #ff7ce5,
+    0 0 40px #ff7ce5;
+    background-clip: text;
+    color: white;
+}
+
+.glow-green-light {
+    background: linear-gradient(to right, #1fa833, var(--glow-green-light));
+    text-shadow: 0 0 5px var(--glow-green-light), 0 0 10px var(--glow-green-light),
+    0 0 15px var(--glow-green-light), 0 0 20px #1fa833, 0 0 30px #1fa833,
+    0 0 40px #1fa833;
+    background-clip: text;
+    color: white;
+}
+
+.glow-green {
+    background: linear-gradient(to right, #1fa833, var(--glow-green));
+    text-shadow: 0 0 5px var(--glow-green), 0 0 10px var(--glow-green),
+    0 0 15px var(--glow-green), 0 0 20px #1fa833, 0 0 30px #1fa833,
+    0 0 40px #1fa833;
+    background-clip: text;
+    color: white;
+}
+
+.glow-green-dark {
+    background: linear-gradient(to right, #1fa833, var(--glow-green-dark));
+    text-shadow: 0 0 5px var(--glow-green-dark), 0 0 10px var(--glow-green-dark),
+    0 0 15px var(--glow-green-dark), 0 0 20px #1fa833, 0 0 30px #1fa833,
+    0 0 40px #1fa833;
+    background-clip: text;
+    color: white;
+}
+
+.glow-yellow-light {
+    background: linear-gradient(to right, #fde64b, var(--glow-yellow-light));
+    text-shadow: 0 0 5px var(--glow-yellow-light), 0 0 10px var(--glow-yellow-light),
+    0 0 15px var(--glow-yellow-light), 0 0 20px #fde64b, 0 0 30px #fde64b,
+    0 0 40px #fde64b;
+    background-clip: text;
+    color: white;
+}
+
+.glow-yellow {
+    background: linear-gradient(to right, #fde64b, var(--glow-yellow));
+    text-shadow: 0 0 5px var(--glow-yellow), 0 0 10px var(--glow-yellow),
+    0 0 15px var(--glow-yellow), 0 0 20px #fde64b, 0 0 30px #fde64b,
+    0 0 40px #fde64b;
+    background-clip: text;
+    color: white;
+}
+
+.glow-yellow-dark {
+    background: linear-gradient(to right, #fde64b, var(--glow-yellow-dark));
+    text-shadow: 0 0 5px var(--glow-yellow-dark), 0 0 10px var(--glow-yellow-dark),
+    0 0 15px var(--glow-yellow-dark), 0 0 20px #fde64b, 0 0 30px #fde64b,
+    0 0 40px #fde64b;
+    background-clip: text;
+    color: white;
+}
+
+.glow-orange-light {
+    background: linear-gradient(to right, #ff7f00, var(--glow-orange-light));
+    text-shadow: 0 0 5px var(--glow-orange-light), 0 0 10px var(--glow-orange-light),
+    0 0 15px var(--glow-orange-light), 0 0 20px #ff7f00, 0 0 30px #ff7f00,
+    0 0 40px #ff7f00;
+    background-clip: text;
+    color: white;
+}
+
+.glow-orange {
+    background: linear-gradient(to right, #ff7f00, var(--glow-orange));
+    text-shadow: 0 0 5px var(--glow-orange), 0 0 10px var(--glow-orange),
+    0 0 15px var(--glow-orange), 0 0 20px #ff7f00, 0 0 30px #ff7f00,
+    0 0 40px #ff7f00;
+    background-clip: text;
+    color: white;
+}
+
+.glow-orange-dark {
+    background: linear-gradient(to right, #ff7f00, var(--glow-orange-dark));
+    text-shadow: 0 0 5px var(--glow-orange-dark), 0 0 10px var(--glow-orange-dark),
+    0 0 15px var(--glow-orange-dark), 0 0 20px #ff7f00, 0 0 30px #ff7f00,
+    0 0 40px #ff7f00;
+    background-clip: text;
+    color: white;
+}
+
+/* Hover Glow Effects */
+
+.glow-blue-light-hover:hover {
+    background: linear-gradient(to right, #43c6ac, var(--glow-blue-light));
+    text-shadow: 0 0 5px var(--glow-blue-light), 0 0 10px var(--glow-blue-light),
+    0 0 15px var(--glow-blue-light), 0 0 20px #43c6ac, 0 0 30px #43c6ac,
+    0 0 40px #43c6ac;
+    background-clip: text;
+    color: white;
+}
+
+.glow-blue-hover:hover {
+    background: linear-gradient(to right, #43c6ac, var(--glow-blue));
+    text-shadow: 0 0 5px var(--glow-blue), 0 0 10px var(--glow-blue),
+    0 0 15px var(--glow-blue), 0 0 20px #43c6ac, 0 0 30px #43c6ac,
+    0 0 40px #43c6ac;
+    background-clip: text;
+    color: white;
+}
+
+.glow-blue-dark-hover:hover {
+    background: linear-gradient(to right, #43c6ac, var(--glow-blue-dark));
+    text-shadow: 0 0 5px var(--glow-blue-dark), 0 0 10px var(--glow-blue-dark),
+    0 0 15px var(--glow-blue-dark), 0 0 20px #43c6ac, 0 0 30px #43c6ac,
+    0 0 40px #43c6ac;
+    background-clip: text;
+    color: white;
+}
+
+.glow-pink-light-hover:hover {
+    background: linear-gradient(to right, #ff7ce5, var(--glow-pink-light));
+    text-shadow: 0 0 5px var(--glow-pink-light), 0 0 10px var(--glow-pink-light),
+    0 0 15px var(--glow-pink-light), 0 0 20px #ff7ce5, 0 0 30px #ff7ce5,
+    0 0 40px #ff7ce5;
+    background-clip: text;
+    color: white;
+}
+
+.glow-pink-hover:hover {
+    background: linear-gradient(to right, #ff7ce5, var(--glow-pink));
+    text-shadow: 0 0 5px var(--glow-pink), 0 0 10px var(--glow-pink),
+    0 0 15px var(--glow-pink), 0 0 20px #ff7ce5, 0 0 30px #ff7ce5,
+    0 0 40px #ff7ce5;
+    background-clip: text;
+    color: white;
+}
+
+.glow-pink-dark-hover:hover {
+    background: linear-gradient(to right, #ff7ce5, var(--glow-pink-dark));
+    text-shadow: 0 0 5px var(--glow-pink-dark), 0 0 10px var(--glow-pink-dark),
+    0 0 15px var(--glow-pink-dark), 0 0 20px #ff7ce5, 0 0 30px #ff7ce5,
+    0 0 40px #ff7ce5;
+    background-clip: text;
+    color: white;
+}
+
+.glow-green-light-hover:hover {
+    background: linear-gradient(to right, #1fa833, var(--glow-green-light));
+    text-shadow: 0 0 5px var(--glow-green-light), 0 0 10px var(--glow-green-light),
+    0 0 15px var(--glow-green-light), 0 0 20px #1fa833, 0 0 30px #1fa833,
+    0 0 40px #1fa833;
+    background-clip: text;
+    color: white;
+}
+
+.glow-green-hover:hover {
+    background: linear-gradient(to right, #1fa833, var(--glow-green));
+    text-shadow: 0 0 5px var(--glow-green), 0 0 10px var(--glow-green),
+    0 0 15px var(--glow-green), 0 0 20px #1fa833, 0 0 30px #1fa833,
+    0 0 40px #1fa833;
+    background-clip: text;
+    color: white;
+}
+
+.glow-green-dark-hover:hover {
+    background: linear-gradient(to right, #1fa833, var(--glow-green-dark));
+    text-shadow: 0 0 5px var(--glow-green-dark), 0 0 10px var(--glow-green-dark),
+    0 0 15px var(--glow-green-dark), 0 0 20px #1fa833, 0 0 30px #1fa833,
+    0 0 40px #1fa833;
+    background-clip: text;
+    color: white;
+}
+
+.glow-yellow-light-hover:hover {
+    background: linear-gradient(to right, #fde64b, var(--glow-yellow-light));
+    text-shadow: 0 0 5px var(--glow-yellow-light), 0 0 10px var(--glow-yellow-light),
+    0 0 15px var(--glow-yellow-light), 0 0 20px #fde64b, 0 0 30px #fde64b,
+    0 0 40px #fde64b;
+    background-clip: text;
+    color: white;
+}
+
+.glow-yellow-hover:hover {
+    background: linear-gradient(to right, #fde64b, var(--glow-yellow));
+    text-shadow: 0 0 5px var(--glow-yellow), 0 0 10px var(--glow-yellow),
+    0 0 15px var(--glow-yellow), 0 0 20px #fde64b, 0 0 30px #fde64b,
+    0 0 40px #fde64b;
+    background-clip: text;
+    color: white;
+}
+
+.glow-yellow-dark-hover:hover {
+    background: linear-gradient(to right, #fde64b, var(--glow-yellow-dark));
+    text-shadow: 0 0 5px var(--glow-yellow-dark), 0 0 10px var(--glow-yellow-dark),
+    0 0 15px var(--glow-yellow-dark), 0 0 20px #fde64b, 0 0 30px #fde64b,
+    0 0 40px #fde64b;
+    background-clip: text;
+    color: white;
+}
+
+.glow-orange-light-hover:hover {
+    background: linear-gradient(to right, #ff7f00, var(--glow-orange-light));
+    text-shadow: 0 0 5px var(--glow-orange-light), 0 0 10px var(--glow-orange-light),
+    0 0 15px var(--glow-orange-light), 0 0 20px #ff7f00, 0 0 30px #ff7f00,
+    0 0 40px #ff7f00;
+    background-clip: text;
+    color: white;
+}
+
+.glow-orange-hover:hover {
+    background: linear-gradient(to right, #ff7f00, var(--glow-orange));
+    text-shadow: 0 0 5px var(--glow-orange), 0 0 10px var(--glow-orange),
+    0 0 15px var(--glow-orange), 0 0 20px #ff7f00, 0 0 30px #ff7f00,
+    0 0 40px #ff7f00;
+    background-clip: text;
+    color: white;
+}
+
+.glow-orange-dark-hover:hover {
+    background: linear-gradient(to right, #ff7f00, var(--glow-orange-dark));
+    text-shadow: 0 0 5px var(--glow-orange-dark), 0 0 10px var(--glow-orange-dark),
+    0 0 15px var(--glow-orange-dark), 0 0 20px #ff7f00, 0 0 30px #ff7f00,
+    0 0 40px #ff7f00;
+    background-clip: text;
+    color: white;
+}
+
+.glow-purple-light {
+    background: linear-gradient(to right, #8A2BE2, var(--glow-purple-light)); /* Segundo color ajustado para mejor contraste */
+    text-shadow: 0 0 5px var(--glow-purple-light), 0 0 10px var(--glow-purple-light),
+    0 0 15px var(--glow-purple-light), 0 0 20px #8A2BE2, 0 0 30px #8A2BE2,
+    0 0 40px #8A2BE2;
+    background-clip: text;
+    color: white;
+}
+
+.glow-purple {
+    background: linear-gradient(to right, #8A2BE2, var(--glow-purple));
+    text-shadow: 0 0 5px var(--glow-purple), 0 0 10px var(--glow-purple),
+    0 0 15px var(--glow-purple), 0 0 20px #8A2BE2, 0 0 30px #8A2BE2,
+    0 0 40px #8A2BE2;
+    background-clip: text;
+    color: white;
+}
+
+.glow-purple-dark {
+    background: linear-gradient(to right, #8A2BE2, var(--glow-purple-dark));
+    text-shadow: 0 0 5px var(--glow-purple-dark), 0 0 10px var(--glow-purple-dark),
+    0 0 15px var(--glow-purple-dark), 0 0 20px #8A2BE2, 0 0 30px #8A2BE2,
+    0 0 40px #8A2BE2;
+    background-clip: text;
+    color: white;
+}
+
+.glow-cyan-light {
+    background: linear-gradient(to right, #00CED1, var(--glow-cyan-light));
+    text-shadow: 0 0 5px var(--glow-cyan-light), 0 0 10px var(--glow-cyan-light),
+    0 0 15px var(--glow-cyan-light), 0 0 20px #00CED1, 0 0 30px #00CED1,
+    0 0 40px #00CED1;
+    background-clip: text;
+    color: white;
+}
+
+.glow-cyan {
+    background: linear-gradient(to right, #00CED1, var(--glow-cyan));
+    text-shadow: 0 0 5px var(--glow-cyan), 0 0 10px var(--glow-cyan),
+    0 0 15px var(--glow-cyan), 0 0 20px #00CED1, 0 0 30px #00CED1,
+    0 0 40px #00CED1;
+    background-clip: text;
+    color: white;
+}
+
+.glow-cyan-dark {
+    background: linear-gradient(to right, #00CED1, var(--glow-cyan-dark));
+    text-shadow: 0 0 5px var(--glow-cyan-dark), 0 0 10px var(--glow-cyan-dark),
+    0 0 15px var(--glow-cyan-dark), 0 0 20px #00CED1, 0 0 30px #00CED1,
+    0 0 40px #00CED1;
+    background-clip: text;
+    color: white;
+}
+
+.glow-red-light {
+    background: linear-gradient(to right, #DC143C, var(--glow-red-light));
+    text-shadow: 0 0 5px var(--glow-red-light), 0 0 10px var(--glow-red-light),
+    0 0 15px var(--glow-red-light), 0 0 20px #DC143C, 0 0 30px #DC143C,
+    0 0 40px #DC143C;
+    background-clip: text;
+    color: white;
+}
+
+.glow-red {
+    background: linear-gradient(to right, #DC143C, var(--glow-red));
+    text-shadow: 0 0 5px var(--glow-red), 0 0 10px var(--glow-red),
+    0 0 15px var(--glow-red), 0 0 20px #DC143C, 0 0 30px #DC143C,
+    0 0 40px #DC143C;
+    background-clip: text;
+    color: white;
+}
+
+.glow-red-dark {
+    background: linear-gradient(to right, #DC143C, var(--glow-red-dark));
+    text-shadow: 0 0 5px var(--glow-red-dark), 0 0 10px var(--glow-red-dark),
+    0 0 15px var(--glow-red-dark), 0 0 20px #DC143C, 0 0 30px #DC143C,
+    0 0 40px #DC143C;
+    background-clip: text;
+    color: white;
+}
+
+.glow-lime-light {
+    background: linear-gradient(to right, #32CD32, var(--glow-lime-light));
+    text-shadow: 0 0 5px var(--glow-lime-light), 0 0 10px var(--glow-lime-light),
+    0 0 15px var(--glow-lime-light), 0 0 20px #32CD32, 0 0 30px #32CD32,
+    0 0 40px #32CD32;
+    background-clip: text;
+    color: white;
+}
+
+.glow-lime {
+    background: linear-gradient(to right, #32CD32, var(--glow-lime));
+    text-shadow: 0 0 5px var(--glow-lime), 0 0 10px var(--glow-lime),
+    0 0 15px var(--glow-lime), 0 0 20px #32CD32, 0 0 30px #32CD32,
+    0 0 40px #32CD32;
+    background-clip: text;
+    color: white;
+}
+
+.glow-lime-dark {
+    background: linear-gradient(to right, #32CD32, var(--glow-lime-dark));
+    text-shadow: 0 0 5px var(--glow-lime-dark), 0 0 10px var(--glow-lime-dark),
+    0 0 15px var(--glow-lime-dark), 0 0 20px #32CD32, 0 0 30px #32CD32,
+    0 0 40px #32CD32;
+    background-clip: text;
+    color: white;
+}
+
+.glow-magenta-light {
+    background: linear-gradient(to right, #FF1493, var(--glow-magenta-light));
+    text-shadow: 0 0 5px var(--glow-magenta-light), 0 0 10px var(--glow-magenta-light),
+    0 0 15px var(--glow-magenta-light), 0 0 20px #FF1493, 0 0 30px #FF1493,
+    0 0 40px #FF1493;
+    background-clip: text;
+    color: white;
+}
+
+.glow-magenta {
+    background: linear-gradient(to right, #FF1493, var(--glow-magenta));
+    text-shadow: 0 0 5px var(--glow-magenta), 0 0 10px var(--glow-magenta),
+    0 0 15px var(--glow-magenta), 0 0 20px #FF1493, 0 0 30px #FF1493,
+    0 0 40px #FF1493;
+    background-clip: text;
+    color: white;
+}
+
+.glow-magenta-dark {
+    background: linear-gradient(to right, #FF1493, var(--glow-magenta-dark));
+    text-shadow: 0 0 5px var(--glow-magenta-dark), 0 0 10px var(--glow-magenta-dark),
+    0 0 15px var(--glow-magenta-dark), 0 0 20px #FF1493, 0 0 30px #FF1493,
+    0 0 40px #FF1493;
+    background-clip: text;
+    color: white;
+}
+
+.glow-purple-light-hover:hover {
+    background: linear-gradient(to right, #8A2BE2, var(--glow-purple-light)); /* Segundo color ajustado para mejor contraste */
+    text-shadow: 0 0 5px var(--glow-purple-light), 0 0 10px var(--glow-purple-light),
+    0 0 15px var(--glow-purple-light), 0 0 20px #8A2BE2, 0 0 30px #8A2BE2,
+    0 0 40px #8A2BE2;
+    background-clip: text;
+    color: white;
+}
+
+.glow-purple-hover:hover {
+    background: linear-gradient(to right, #8A2BE2, var(--glow-purple));
+    text-shadow: 0 0 5px var(--glow-purple), 0 0 10px var(--glow-purple),
+    0 0 15px var(--glow-purple), 0 0 20px #8A2BE2, 0 0 30px #8A2BE2,
+    0 0 40px #8A2BE2;
+    background-clip: text;
+    color: white;
+}
+
+.glow-purple-dark-hover:hover {
+    background: linear-gradient(to right, #8A2BE2, var(--glow-purple-dark));
+    text-shadow: 0 0 5px var(--glow-purple-dark), 0 0 10px var(--glow-purple-dark),
+    0 0 15px var(--glow-purple-dark), 0 0 20px #8A2BE2, 0 0 30px #8A2BE2,
+    0 0 40px #8A2BE2;
+    background-clip: text;
+    color: white;
+}
+
+.glow-cyan-light-hover:hover {
+    background: linear-gradient(to right, #00CED1, var(--glow-cyan-light));
+    text-shadow: 0 0 5px var(--glow-cyan-light), 0 0 10px var(--glow-cyan-light),
+    0 0 15px var(--glow-cyan-light), 0 0 20px #00CED1, 0 0 30px #00CED1,
+    0 0 40px #00CED1;
+    background-clip: text;
+    color: white;
+}
+
+.glow-cyan-hover:hover {
+    background: linear-gradient(to right, #00CED1, var(--glow-cyan));
+    text-shadow: 0 0 5px var(--glow-cyan), 0 0 10px var(--glow-cyan),
+    0 0 15px var(--glow-cyan), 0 0 20px #00CED1, 0 0 30px #00CED1,
+    0 0 40px #00CED1;
+    background-clip: text;
+    color: white;
+}
+
+.glow-cyan-dark-hover:hover {
+    background: linear-gradient(to right, #00CED1, var(--glow-cyan-dark));
+    text-shadow: 0 0 5px var(--glow-cyan-dark), 0 0 10px var(--glow-cyan-dark),
+    0 0 15px var(--glow-cyan-dark), 0 0 20px #00CED1, 0 0 30px #00CED1,
+    0 0 40px #00CED1;
+    background-clip: text;
+    color: white;
+}
+
+.glow-red-light-hover:hover {
+    background: linear-gradient(to right, #DC143C, var(--glow-red-light));
+    text-shadow: 0 0 5px var(--glow-red-light), 0 0 10px var(--glow-red-light),
+    0 0 15px var(--glow-red-light), 0 0 20px #DC143C, 0 0 30px #DC143C,
+    0 0 40px #DC143C;
+    background-clip: text;
+    color: white;
+}
+
+.glow-red-hover:hover {
+    background: linear-gradient(to right, #DC143C, var(--glow-red));
+    text-shadow: 0 0 5px var(--glow-red), 0 0 10px var(--glow-red),
+    0 0 15px var(--glow-red), 0 0 20px #DC143C, 0 0 30px #DC143C,
+    0 0 40px #DC143C;
+    background-clip: text;
+    color: white;
+}
+
+.glow-red-dark-hover:hover {
+    background: linear-gradient(to right, #DC143C, var(--glow-red-dark));
+    text-shadow: 0 0 5px var(--glow-red-dark), 0 0 10px var(--glow-red-dark),
+    0 0 15px var(--glow-red-dark), 0 0 20px #DC143C, 0 0 30px #DC143C,
+    0 0 40px #DC143C;
+    background-clip: text;
+    color: white;
+}
+
+.glow-lime-light-hover:hover {
+    background: linear-gradient(to right, #32CD32, var(--glow-lime-light));
+    text-shadow: 0 0 5px var(--glow-lime-light), 0 0 10px var(--glow-lime-light),
+    0 0 15px var(--glow-lime-light), 0 0 20px #32CD32, 0 0 30px #32CD32,
+    0 0 40px #32CD32;
+    background-clip: text;
+    color: white;
+}
+
+.glow-lime-hover:hover {
+    background: linear-gradient(to right, #32CD32, var(--glow-lime));
+    text-shadow: 0 0 5px var(--glow-lime), 0 0 10px var(--glow-lime),
+    0 0 15px var(--glow-lime), 0 0 20px #32CD32, 0 0 30px #32CD32,
+    0 0 40px #32CD32;
+    background-clip: text;
+    color: white;
+}
+
+.glow-lime-dark-hover:hover {
+    background: linear-gradient(to right, #32CD32, var(--glow-lime-dark));
+    text-shadow: 0 0 5px var(--glow-lime-dark), 0 0 10px var(--glow-lime-dark),
+    0 0 15px var(--glow-lime-dark), 0 0 20px #32CD32, 0 0 30px #32CD32,
+    0 0 40px #32CD32;
+    background-clip: text;
+    color: white;
+}
+
+.glow-magenta-light-hover:hover {
+    background: linear-gradient(to right, #FF1493, var(--glow-magenta-light));
+    text-shadow: 0 0 5px var(--glow-magenta-light), 0 0 10px var(--glow-magenta-light),
+    0 0 15px var(--glow-magenta-light), 0 0 20px #FF1493, 0 0 30px #FF1493,
+    0 0 40px #FF1493;
+    background-clip: text;
+    color: white;
+}
+
+.glow-magenta-hover:hover {
+    background: linear-gradient(to right, #FF1493, var(--glow-magenta));
+    text-shadow: 0 0 5px var(--glow-magenta), 0 0 10px var(--glow-magenta),
+    0 0 15px var(--glow-magenta), 0 0 20px #FF1493, 0 0 30px #FF1493,
+    0 0 40px #FF1493;
+    background-clip: text;
+    color: white;
+}
+
+.glow-magenta-dark-hover:hover {
+    background: linear-gradient(to right, #FF1493, var(--glow-magenta-dark));
+    text-shadow: 0 0 5px var(--glow-magenta-dark), 0 0 10px var(--glow-magenta-dark),
+    0 0 15px var(--glow-magenta-dark), 0 0 20px #FF1493, 0 0 30px #FF1493,
+    0 0 40px #FF1493;
+    background-clip: text;
+    color: white;
+}
+
+/* Blue Box Glow Effects */
+.glow-blue-light-box {
+    background: linear-gradient(to right, #43c6ac, var(--glow-blue-light));
+    box-shadow: 0 0 5px var(--glow-blue-light), 0 0 10px var(--glow-blue-light),
+    0 0 15px var(--glow-blue-light), 0 0 20px #43c6ac, 0 0 30px #43c6ac,
+    0 0 40px #43c6ac;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-blue-box {
+    background: linear-gradient(to right, #43c6ac, var(--glow-blue));
+    box-shadow: 0 0 5px var(--glow-blue), 0 0 10px var(--glow-blue),
+    0 0 15px var(--glow-blue), 0 0 20px #43c6ac, 0 0 30px #43c6ac,
+    0 0 40px #43c6ac;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-blue-dark-box {
+    background: linear-gradient(to right, #43c6ac, var(--glow-blue-dark));
+    box-shadow: 0 0 5px var(--glow-blue-dark), 0 0 10px var(--glow-blue-dark),
+    0 0 15px var(--glow-blue-dark), 0 0 20px #43c6ac, 0 0 30px #43c6ac,
+    0 0 40px #43c6ac;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Pink Box Glow Effects */
+.glow-pink-light-box {
+    background: linear-gradient(to right, #ff7ce5, var(--glow-pink-light));
+    box-shadow: 0 0 5px var(--glow-pink-light), 0 0 10px var(--glow-pink-light),
+    0 0 15px var(--glow-pink-light), 0 0 20px #ff7ce5, 0 0 30px #ff7ce5,
+    0 0 40px #ff7ce5;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-pink-box {
+    background: linear-gradient(to right, #ff7ce5, var(--glow-pink));
+    box-shadow: 0 0 5px var(--glow-pink), 0 0 10px var(--glow-pink),
+    0 0 15px var(--glow-pink), 0 0 20px #ff7ce5, 0 0 30px #ff7ce5,
+    0 0 40px #ff7ce5;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-pink-dark-box {
+    background: linear-gradient(to right, #ff7ce5, var(--glow-pink-dark));
+    box-shadow: 0 0 5px var(--glow-pink-dark), 0 0 10px var(--glow-pink-dark),
+    0 0 15px var(--glow-pink-dark), 0 0 20px #ff7ce5, 0 0 30px #ff7ce5,
+    0 0 40px #ff7ce5;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Green Box Glow Effects */
+.glow-green-light-box {
+    background: linear-gradient(to right, #1fa833, var(--glow-green-light));
+    box-shadow: 0 0 5px var(--glow-green-light), 0 0 10px var(--glow-green-light),
+    0 0 15px var(--glow-green-light), 0 0 20px #1fa833, 0 0 30px #1fa833,
+    0 0 40px #1fa833;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-green-box {
+    background: linear-gradient(to right, #1fa833, var(--glow-green));
+    box-shadow: 0 0 5px var(--glow-green), 0 0 10px var(--glow-green),
+    0 0 15px var(--glow-green), 0 0 20px #1fa833, 0 0 30px #1fa833,
+    0 0 40px #1fa833;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-green-dark-box {
+    background: linear-gradient(to right, #1fa833, var(--glow-green-dark));
+    box-shadow: 0 0 5px var(--glow-green-dark), 0 0 10px var(--glow-green-dark),
+    0 0 15px var(--glow-green-dark), 0 0 20px #1fa833, 0 0 30px #1fa833,
+    0 0 40px #1fa833;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Yellow Box Glow Effects */
+.glow-yellow-light-box {
+    background: linear-gradient(to right, #fde64b, var(--glow-yellow-light));
+    box-shadow: 0 0 5px var(--glow-yellow-light), 0 0 10px var(--glow-yellow-light),
+    0 0 15px var(--glow-yellow-light), 0 0 20px #fde64b, 0 0 30px #fde64b,
+    0 0 40px #fde64b;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-yellow-box {
+    background: linear-gradient(to right, #fde64b, var(--glow-yellow));
+    box-shadow: 0 0 5px var(--glow-yellow), 0 0 10px var(--glow-yellow),
+    0 0 15px var(--glow-yellow), 0 0 20px #fde64b, 0 0 30px #fde64b,
+    0 0 40px #fde64b;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-yellow-dark-box {
+    background: linear-gradient(to right, #fde64b, var(--glow-yellow-dark));
+    box-shadow: 0 0 5px var(--glow-yellow-dark), 0 0 10px var(--glow-yellow-dark),
+    0 0 15px var(--glow-yellow-dark), 0 0 20px #fde64b, 0 0 30px #fde64b,
+    0 0 40px #fde64b;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Orange Box Glow Effects */
+.glow-orange-light-box {
+    background: linear-gradient(to right, #ff7f00, var(--glow-orange-light));
+    box-shadow: 0 0 5px var(--glow-orange-light), 0 0 10px var(--glow-orange-light),
+    0 0 15px var(--glow-orange-light), 0 0 20px #ff7f00, 0 0 30px #ff7f00,
+    0 0 40px #ff7f00;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-orange-box {
+    background: linear-gradient(to right, #ff7f00, var(--glow-orange));
+    box-shadow: 0 0 5px var(--glow-orange), 0 0 10px var(--glow-orange),
+    0 0 15px var(--glow-orange), 0 0 20px #ff7f00, 0 0 30px #ff7f00,
+    0 0 40px #ff7f00;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-orange-dark-box {
+    background: linear-gradient(to right, #ff7f00, var(--glow-orange-dark));
+    box-shadow: 0 0 5px var(--glow-orange-dark), 0 0 10px var(--glow-orange-dark),
+    0 0 15px var(--glow-orange-dark), 0 0 20px #ff7f00, 0 0 30px #ff7f00,
+    0 0 40px #ff7f00;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Purple Box Glow Effects */
+.glow-purple-light-box {
+    background: linear-gradient(to right, #8A2BE2, var(--glow-purple-light));
+    box-shadow: 0 0 5px var(--glow-purple-light), 0 0 10px var(--glow-purple-light),
+    0 0 15px var(--glow-purple-light), 0 0 20px #8A2BE2, 0 0 30px #8A2BE2,
+    0 0 40px #8A2BE2;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-purple-box {
+    background: linear-gradient(to right, #8A2BE2, var(--glow-purple));
+    box-shadow: 0 0 5px var(--glow-purple), 0 0 10px var(--glow-purple),
+    0 0 15px var(--glow-purple), 0 0 20px #8A2BE2, 0 0 30px #8A2BE2,
+    0 0 40px #8A2BE2;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-purple-dark-box {
+    background: linear-gradient(to right, #8A2BE2, var(--glow-purple-dark));
+    box-shadow: 0 0 5px var(--glow-purple-dark), 0 0 10px var(--glow-purple-dark),
+    0 0 15px var(--glow-purple-dark), 0 0 20px #8A2BE2, 0 0 30px #8A2BE2,
+    0 0 40px #8A2BE2;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Cyan Box Glow Effects */
+.glow-cyan-light-box {
+    background: linear-gradient(to right, #00CED1, var(--glow-cyan-light));
+    box-shadow: 0 0 5px var(--glow-cyan-light), 0 0 10px var(--glow-cyan-light),
+    0 0 15px var(--glow-cyan-light), 0 0 20px #00CED1, 0 0 30px #00CED1,
+    0 0 40px #00CED1;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-cyan-box {
+    background: linear-gradient(to right, #00CED1, var(--glow-cyan));
+    box-shadow: 0 0 5px var(--glow-cyan), 0 0 10px var(--glow-cyan),
+    0 0 15px var(--glow-cyan), 0 0 20px #00CED1, 0 0 30px #00CED1,
+    0 0 40px #00CED1;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-cyan-dark-box {
+    background: linear-gradient(to right, #00CED1, var(--glow-cyan-dark));
+    box-shadow: 0 0 5px var(--glow-cyan-dark), 0 0 10px var(--glow-cyan-dark),
+    0 0 15px var(--glow-cyan-dark), 0 0 20px #00CED1, 0 0 30px #00CED1,
+    0 0 40px #00CED1;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Red Box Glow Effects */
+.glow-red-light-box {
+    background: linear-gradient(to right, #DC143C, var(--glow-red-light));
+    box-shadow: 0 0 5px var(--glow-red-light), 0 0 10px var(--glow-red-light),
+    0 0 15px var(--glow-red-light), 0 0 20px #DC143C, 0 0 30px #DC143C,
+    0 0 40px #DC143C;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-red-box {
+    background: linear-gradient(to right, #DC143C, var(--glow-red));
+    box-shadow: 0 0 5px var(--glow-red), 0 0 10px var(--glow-red),
+    0 0 15px var(--glow-red), 0 0 20px #DC143C, 0 0 30px #DC143C,
+    0 0 40px #DC143C;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-red-dark-box {
+    background: linear-gradient(to right, #DC143C, var(--glow-red-dark));
+    box-shadow: 0 0 5px var(--glow-red-dark), 0 0 10px var(--glow-red-dark),
+    0 0 15px var(--glow-red-dark), 0 0 20px #DC143C, 0 0 30px #DC143C,
+    0 0 40px #DC143C;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Lime Box Glow Effects */
+.glow-lime-light-box {
+    background: linear-gradient(to right, #32CD32, var(--glow-lime-light));
+    box-shadow: 0 0 5px var(--glow-lime-light), 0 0 10px var(--glow-lime-light),
+    0 0 15px var(--glow-lime-light), 0 0 20px #32CD32, 0 0 30px #32CD32,
+    0 0 40px #32CD32;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-lime-box {
+    background: linear-gradient(to right, #32CD32, var(--glow-lime));
+    box-shadow: 0 0 5px var(--glow-lime), 0 0 10px var(--glow-lime),
+    0 0 15px var(--glow-lime), 0 0 20px #32CD32, 0 0 30px #32CD32,
+    0 0 40px #32CD32;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-lime-dark-box {
+    background: linear-gradient(to right, #32CD32, var(--glow-lime-dark));
+    box-shadow: 0 0 5px var(--glow-lime-dark), 0 0 10px var(--glow-lime-dark),
+    0 0 15px var(--glow-lime-dark), 0 0 20px #32CD32, 0 0 30px #32CD32,
+    0 0 40px #32CD32;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Magenta Box Glow Effects */
+.glow-magenta-light-box {
+    background: linear-gradient(to right, #FF1493, var(--glow-magenta-light));
+    box-shadow: 0 0 5px var(--glow-magenta-light), 0 0 10px var(--glow-magenta-light),
+    0 0 15px var(--glow-magenta-light), 0 0 20px #FF1493, 0 0 30px #FF1493,
+    0 0 40px #FF1493;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-magenta-box {
+    background: linear-gradient(to right, #FF1493, var(--glow-magenta));
+    box-shadow: 0 0 5px var(--glow-magenta), 0 0 10px var(--glow-magenta),
+    0 0 15px var(--glow-magenta), 0 0 20px #FF1493, 0 0 30px #FF1493,
+    0 0 40px #FF1493;
+    color: white;
+    border-radius: 5px;
+}
+
+.glow-magenta-dark-box {
+    background: linear-gradient(to right, #FF1493, var(--glow-magenta-dark));
+    box-shadow: 0 0 5px var(--glow-magenta-dark), 0 0 10px var(--glow-magenta-dark),
+    0 0 15px var(--glow-magenta-dark), 0 0 20px #FF1493, 0 0 30px #FF1493,
+    0 0 40px #FF1493;
+    color: white;
+    border-radius: 5px;
+}
